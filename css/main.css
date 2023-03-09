@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
 }
 
 /* * BOXES & MY CLASSES----------------------------- */
@@ -30,6 +29,15 @@ h2{
     left: 0px;
     background-color: rgb(0, 0, 0, .3);
     color: white;
+}
+
+button{
+    color: white;
+    background-color: #4b4a4b;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
 }
 
 /* ? IMAGES--------------------------------------- */
@@ -98,11 +106,11 @@ h2{
 .bgRed {background-color: #fe0100;}
 .bgPink {background-color: #ffc0cb;}
 .bgYellow {background-color: #ffff00;}
-.bgGrey {background-color: #808080;}
+.bgGrey {background-color: #4b4a4b;}
 .bgTeal {background-color: #008080;}
 .bgBrown {background-color: #a52a2a;}
 .bgWhite { background-color: white; }
-.bgBlack { background-color: #1b1b1a; }
+.bgBlack { background-color: black; }
 
 /* UTILITY---------------------------------------- */
 .textAlCenter{ text-align: center; }
