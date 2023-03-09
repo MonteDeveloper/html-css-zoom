@@ -14,7 +14,7 @@
 }
 
 .mainContainer{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 70px - 70px);
 }
 
 .facecam{
