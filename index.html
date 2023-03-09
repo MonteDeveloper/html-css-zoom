@@ -14,12 +14,12 @@
             <div class="flexRow flexMainEnd col10 tinyMinH">
                 <!-- speaker view -->
                 <div class="">
-                    <button><i class="fa-solid fa-grip"></i> Speaker View</button>
+                    <button class="buttonHov"><i class="fa-solid fa-table-cells"></i> Speaker View</button>
                 </div>
 
                 <!-- fullscreen button -->
                 <div class=" ">
-                    <button><i class="fa-solid fa-maximize"></i></button>
+                    <button class="buttonHov"><i class="fa-solid fa-maximize"></i></button>
                 </div>
             </div>
         </div>
@@ -149,41 +149,87 @@
     </main>
 
     <footer>
-        <div class="flexRow flexMainBetween flexCrossCenter bgBrown tinyMinH">
+        <div class="flexRow flexMainBetween flexCrossCenter bgGrey textColorWhite">
             <!-- LEFT footer -->
-            <div class="flexRow">
-                <!-- mute button -->
-                <div>
-                    <p>icona</p>
-                    <p>mute</p>
+            <div class="flexRow col25">
+                <div class="buttonHov flexRow flexCrossCenter tinyMinH">
+                    <!-- mute button -->
+                    <div class="meetFunc flexCol flexCrossCenter">
+                        <i class="fa-solid fa-microphone"></i>
+                        <p>Mute</p>
+                    </div>
+
+                    <!-- arrow -->
+                    <div class="meetFunc flexCol flexCrossCenter">
+                        <div class="row33"></div>
+                        <i class="fa-solid fa-angle-up row33"></i>
+                        <div class="row33"></div>
+                    </div>
                 </div>
 
-                <!-- cam button -->
-                <div>
-                    <p>icona</p>
-                    <p>cam</p>
+                <div class="buttonHov flexRow flexCrossCenter tinyMinH">
+                    <!-- cam button -->
+                    <div class="meetFunc flexCol flexCrossCenter">
+                        <i class="fa-solid fa-video"></i>
+                        <p>Stop Video</p>
+                    </div>
+
+                    <!-- arrow -->
+                    <div class="meetFunc flexCol flexCrossCenter">
+                        <div class="row33"></div>
+                        <i class="fa-solid fa-angle-up row33"></i>
+                        <div class="row33"></div>
+                    </div>
                 </div>
             </div>
 
             <!-- MIDDLE footer -->
-            <div class="flexRow">
-                <div>
-                    <p>icona</p>
-                    <p>testo</p>
+            <div class="flexRow flexMainCenter col50 tinyMinH">
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <p>Invite New User</p>
                 </div>
-                <div>
-                    <p>icona</p>
-                    <p>testo</p>
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Manage Participants</p>
                 </div>
-                <div>
-                    <p>icona</p>
-                    <p>testo</p>
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <p>Polling</p>
+                </div>
+                <div class="buttonHov flexRow flexCrossCenter tinyMinH">
+                    <div class="meetFunc flexCol flexCrossCenter">
+                        <i class="fa-solid fa-share-from-square textColorGreen"></i>
+                        <p>Share Screen</p>
+                    </div>
+                    <!-- arrow -->
+                    <div class="meetFunc flexCol flexCrossCenter">
+                        <div class="row33"></div>
+                        <i class="fa-solid fa-angle-up row33"></i>
+                        <div class="row33"></div>
+                    </div>
+                </div>
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-comment"></i>
+                    <p>Chat</p>
+                </div>
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <p>Record</p>
+                </div>
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <p>Breakout Rooms</p>
+                </div>
+                <div class="buttonHov meetFunc flexCol flexCrossCenter">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>More</p>
                 </div>
             </div>
 
             <!-- RIGHT footer -->
-            <div>
-                end
+            <div class="flexRow flexMainEnd col25">
+                <button class="buttonHov endMeeting tinyMinH">End Meeting</button>
             </div>
         </div>
     </footer>

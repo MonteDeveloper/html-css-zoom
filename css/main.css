@@ -13,7 +13,7 @@
 }
 
 .mainContainer{
-    height: calc(100vh - 70px - 70px);
+    height: calc(100vh - 80px - 80px);
 }
 
 .facecam{
@@ -24,6 +24,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.fa-angle-up{
+    font-size: 1em;
+}
+
+.meetFunc{
+    padding: 10px;
+}
+
+.endMeeting{
+    color: red;
+    border-radius: 0;
+    margin: 0;
+    padding: 20px;
+}
+
+.buttonHov:hover{
+    background-color: rgb(0, 0, 0, .3);
+    cursor: pointer;
+    transition-duration: .2s;
 }
 
 /* * TAGS----------------------------------------- */
@@ -37,6 +58,14 @@ h2{
     padding: 5px;
 }
 
+i{
+    font-size: 2em;
+}
+
+button i, h2 i{
+    font-size: 1.2em;
+}
+
 button{
     color: white;
     background-color: #4b4a4b;
@@ -44,6 +73,11 @@ button{
     border-radius: 5px;
     margin: 5px;
     border: none;
+}
+
+p{
+    margin-top: .5em;
+    font-size: .8em;
 }
 
 /* ? IMAGES--------------------------------------- */
@@ -95,11 +129,13 @@ button{
 
 /* ? HEIGHT--------------------------------------- */
 .microH { height: 30px; }
-.tinyMinH{ min-height: 70px; }
+.tinyMinH{ min-height: 80px; }
 .smallMinH{ min-height: 120px; }
 .mediumMinH{ min-height: 250px; }
 .largeMinH{ min-height: 400px; }
 .hugeMinH{ min-height: 600px; }
+
+.row33{ height: calc(100% / 3);}
 
 /* ? BORDER--------------------------------------- */
 .bordSection{ border: black 2px dashed; }
@@ -112,7 +148,7 @@ button{
 .bgRed {background-color: #fe0100;}
 .bgPink {background-color: #ffc0cb;}
 .bgYellow {background-color: #ffff00;}
-.bgGrey {background-color: #4b4a4b;}
+.bgGrey {background-color: #222323;}
 .bgTeal {background-color: #008080;}
 .bgBrown {background-color: #a52a2a;}
 .bgWhite { background-color: white; }
@@ -122,5 +158,6 @@ button{
 .textAlCenter{ text-align: center; }
 .textCanceled{ text-decoration: line-through; }
 .textColorRed{ color: red; }
+.textColorGreen{ color: #4ac801; }
 .textColorWhite{ color: white; }
 .textTiny{ font-size: .6em; }
