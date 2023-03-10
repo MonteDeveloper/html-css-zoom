@@ -17,10 +17,11 @@
 }
 
 .facecam{
-    width: calc(100% / 7 - 20px);
+    width: 250px;
+    height: 150px;
     margin: 10px;
     position: relative;
-    background-image: url(https://picsum.photos/238/149);
+    background-image: url(https://picsum.photos/250/150);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -179,3 +180,4 @@ footer{
 .textColorGreen{ color: #4ac801; }
 .textColorWhite{ color: white; }
 .textTiny{ font-size: .6em; }
+.overFlowY{ overflow-y: auto;}
