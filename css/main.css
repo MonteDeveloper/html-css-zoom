@@ -17,11 +17,11 @@
 }
 
 .facecam{
-    width: 250px;
-    height: 150px;
+    width: 235px;
+    height: 130px;
     margin: 10px;
     position: relative;
-    background-image: url(https://picsum.photos/250/150);
+    background-image: url(https://picsum.photos/235/130);
     background-repeat: no-repeat;
     background-size: cover;
 
