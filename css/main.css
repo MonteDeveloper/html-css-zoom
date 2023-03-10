@@ -54,6 +54,10 @@
     border-radius: 20px;
 }
 
+.endMeeting:hover{
+    border-radius: 0px;
+}
+
 /* * TAGS----------------------------------------- */
 h2{
     position: absolute;
