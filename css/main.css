@@ -91,6 +91,11 @@ p{
     font-size: .8em;
 }
 
+footer{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 /* ? IMAGES--------------------------------------- */
 
 /* ? BUTTONS-------------------------------------- */
@@ -128,6 +133,7 @@ p{
 /* ? WIDTH---------------------------------------- */
 .col10 { width: 10%; } /* corrisponde a 1/10 */
 .col14 { width: calc(100% / 7);} /* corrisponde a 1/7 */
+.col15 { width: 15%; }
 .col20 { width: 20%; } /* corrisponde a 1/5 */
 .col25 { width: 25%; } /* corrisponde a 1/4 */
 .col32 { width: 32%;}
@@ -136,6 +142,7 @@ p{
 .col60 { width: 60%; } /* corrisponde a 3/5 */
 .col66 { width: calc(100% / 3 * 2); } /* corrisponde a 2/3 */
 .col70 { width: 70%; }
+.col80 { width: 80%; }
 .col100 { width: 100%; }
 
 /* ? HEIGHT--------------------------------------- */
